@@ -151,57 +151,47 @@ const houses = [
     location: {
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.3579567190905!2d103.61943407496615!3d1.5502609984352513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzMnMDAuOSJOIDEwM8KwMzcnMTkuMiJF!5e0!3m2!1sen!2smy!4v1782569739416!5m2!1sen!2smy"
     },
-    facilities: ["WiFi-ready", "Parking Available", "Washing Machine", "Kitchen Stove", "Water Dispenser"],
+    facilities: ["Parking Available", "Washing Machine", "Kitchen Stove", "Shared bathroom"],
     rooms: [
       {
         id: "hs3-r1",
-        roomNo: "Room 1",
-        type: "Master Room",
-        price: 680,
-        availability: "Available",
-        amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Window", "Wardrobe", "Premium Desk"],
+        roomNo: "Bilik Master",
+        type: "Single Bed",
+        price: 650,
+        availability: "Occupied",
+        amenities: ["Air-Conditioning", "Private Bathroom", "Single Bed", "Window", "Wardrobe", "Floor Lamp"],
         images: [roomImages.master[0]],
         description: "Premium master bedroom with ensuite bathroom. Features a modern working station and wardrobe setup."
       },
       {
         id: "hs3-r2",
-        roomNo: "Room 2",
-        type: "Medium Room",
-        price: 520,
+        roomNo: "Bilik Besar",
+        type: "Queen Bed",
+        price: 590,
         availability: "Available",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Queen Bed", "Wardrobe", "Window"],
+        amenities: ["Air-Conditioning", "Queen Bed", "Wardrobe", "Window"],
         images: [roomImages.medium[0]],
-        description: "Well-lit medium room featuring a comfortable queen-size mattress and sliding window panels."
+        description: "Bilik besar katil queen bed sesuai untuk 2 orang. Bilik ini mempunyai air-conditioning dan kipas angin. Harga mampu milik."
       },
       {
         id: "hs3-r3",
-        roomNo: "Room 3",
-        type: "Single Room",
-        price: 440,
+        roomNo: "Bilik Kecil",
+        type: "Single Bed",
+        price: 450,
         availability: "Occupied",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe"],
+        amenities: ["No air-conditioning", "Single Bed", "Wardrobe", "Window", "Floor Lamp"],
         images: [roomImages.single[0]],
-        description: "Fully air-conditioned single room in excellent clean condition. Ideal for young professionals."
+        description: "Bilik kecil katil single harga mampu milik dan selesa"
       },
       {
         id: "hs3-r4",
-        roomNo: "Room 4",
-        type: "Single Room",
-        price: 390,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe"],
-        images: [roomImages.single[1]],
-        description: "Affordable room solution with basic wooden wardrobes, mattress base, and a wall fan."
-      },
-      {
-        id: "hs3-r5",
-        roomNo: "Room 5",
-        type: "Sharing Room",
-        price: 340,
+        roomNo: "Bilik Twin Sharing",
+        type: "Two Single Beds",
+        price: 550,
         availability: "Occupied",
-        amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Separate Lockers"],
-        images: [roomImages.sharing[0]],
-        description: "Shared room design for double occupancy, equipped with quality study chairs and high-speed WiFi access."
+        amenities: ["Air-conditioning", "Two Single Beds", "Wardrobe", "Ceiling Fan", "Windows"],
+        images: [roomImages.single[1]],
+        description: "Bilik harga berpatutan sesuai untuk 2 pax. Harga untuk seorang RM 350 jika ambil whole room."
       }
     ]
   },
@@ -210,66 +200,66 @@ const houses = [
     code: "HS 4",
     name: "Blok J Pulai Utama",
     fullTitle: "HS 4 - Blok J Pulai Utama",
-    address: "Jalan Pulai 84, Taman Pulai Utama, 81300 Skudai, Johor Bahru, Johor",
+    address: "J03-03, Jalan Pulai 83/2, Taman Pulai Utama, 81300 Skudai, Johor Bahru, Johor",
     coverImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
     description: "Spacious town-apartment situated in the popular Taman Pulai Utama area. Walking distance to U-Mall Shopping Centre, giant supermarkets, local dry cleaners, and UTM buses routes.",
     location: {
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.21456227092!2d103.6228113!3d1.5482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da741a340b0dfb%3A0x6bfe76e03fb8f3d!2sTaman%20Pulai%20Utama%2C%20Skudai%2C%20Johor!5e0!3m2!1sen!2smy!4v1700000000003!5m2!1sen!2smy"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.376136027578!2d103.61562007496609!3d1.5405809984450058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzInMjYuMSJOIDEwM8KwMzcnMDUuNSJF!5e0!3m2!1sen!2smy!4v1782571334582!5m2!1sen!2smy"
     },
-    facilities: ["Washing Machine", "Kitchen Stove", "Refrigerator", "Dining Area", "WiFi-ready"],
+    facilities: ["Water Filter", "Refrigerator", "Shared bathroom with water heater"],
     rooms: [
       {
         id: "hs4-r1",
-        roomNo: "Room 1",
-        type: "Master Room",
-        price: 630,
-        availability: "Available",
-        amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Window", "Wardrobe"],
-        images: [roomImages.master[0]],
-        description: "Comfortable master suite with personal bathroom, vanity corner, and bright afternoon sunlight exposure."
-      },
-      {
-        id: "hs4-r2",
-        roomNo: "Room 2",
-        type: "Medium Room",
-        price: 490,
-        availability: "Available",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe", "Desk"],
-        images: [roomImages.medium[0]],
-        description: "Quiet middle room with excellent storage systems, soft lighting, and functional workspace layout."
-      },
-      {
-        id: "hs4-r3",
-        roomNo: "Room 3",
-        type: "Single Room",
-        price: 410,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe", "Window"],
-        images: [roomImages.single[0]],
-        description: "Freshly painted single room with large windows facing the morning sun. High-velocity fan included."
-      },
-      {
-        id: "hs4-r4",
-        roomNo: "Room 4",
-        type: "Single Room",
-        price: 370,
-        availability: "Occupied",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed", "Clothing Rack"],
-        images: [roomImages.single[1]],
-        description: "Budget single room equipped with quality foam mattress, hanger stand, and general utility desk."
-      },
-      {
-        id: "hs4-r5",
-        roomNo: "Room 5",
-        type: "Sharing Room",
-        price: 320,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Desk"],
-        images: [roomImages.sharing[0]],
-        description: "Double sharing layout, designed explicitly to maximize comfort for roommates and UTM scholars."
-      }
-    ]
-  },
+          roomNo: "Room 1",
+          type: "Master Room",
+          price: 630,
+          availability: "Available",
+          amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Window", "Wardrobe"],
+          images: [roomImages.master[0]],
+          description: "Comfortable master suite with personal bathroom, vanity corner, and bright afternoon sunlight exposure."
+        },
+        {
+          id: "hs4-r2",
+          roomNo: "Room 2",
+          type: "Medium Room",
+          price: 490,
+          availability: "Available",
+          amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe", "Desk"],
+          images: [roomImages.medium[0]],
+          description: "Quiet middle room with excellent storage systems, soft lighting, and functional workspace layout."
+        },
+        {
+          id: "hs4-r3",
+          roomNo: "Room 3",
+          type: "Single Room",
+          price: 410,
+          availability: "Available",
+          amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe", "Window"],
+          images: [roomImages.single[0]],
+          description: "Freshly painted single room with large windows facing the morning sun. High-velocity fan included."
+        },
+        {
+          id: "hs4-r4",
+          roomNo: "Room 4",
+          type: "Single Room",
+          price: 370,
+          availability: "Occupied",
+          amenities: ["Fan", "Shared Bathroom", "Single Bed", "Clothing Rack"],
+          images: [roomImages.single[1]],
+          description: "Budget single room equipped with quality foam mattress, hanger stand, and general utility desk."
+        },
+        {
+          id: "hs4-r5",
+          roomNo: "Room 5",
+          type: "Sharing Room",
+          price: 320,
+          availability: "Available",
+          amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Desk"],
+          images: [roomImages.sharing[0]],
+          description: "Double sharing layout, designed explicitly to maximize comfort for roommates and UTM scholars."
+        }
+      ]
+    },
   {
     id: "hs5",
     code: "HS 5",
