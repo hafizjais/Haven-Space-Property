@@ -210,118 +210,108 @@ const houses = [
     rooms: [
       {
         id: "hs4-r1",
-          roomNo: "Room 1",
-          type: "Master Room",
-          price: 630,
-          availability: "Available",
-          amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Window", "Wardrobe"],
-          images: [roomImages.master[0]],
-          description: "Comfortable master suite with personal bathroom, vanity corner, and bright afternoon sunlight exposure."
-        },
-        {
-          id: "hs4-r2",
-          roomNo: "Room 2",
-          type: "Medium Room",
-          price: 490,
-          availability: "Available",
-          amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe", "Desk"],
-          images: [roomImages.medium[0]],
-          description: "Quiet middle room with excellent storage systems, soft lighting, and functional workspace layout."
-        },
-        {
-          id: "hs4-r3",
-          roomNo: "Room 3",
-          type: "Single Room",
-          price: 410,
-          availability: "Available",
-          amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe", "Window"],
-          images: [roomImages.single[0]],
-          description: "Freshly painted single room with large windows facing the morning sun. High-velocity fan included."
-        },
-        {
-          id: "hs4-r4",
-          roomNo: "Room 4",
-          type: "Single Room",
-          price: 370,
-          availability: "Occupied",
-          amenities: ["Fan", "Shared Bathroom", "Single Bed", "Clothing Rack"],
-          images: [roomImages.single[1]],
-          description: "Budget single room equipped with quality foam mattress, hanger stand, and general utility desk."
-        },
-        {
-          id: "hs4-r5",
-          roomNo: "Room 5",
-          type: "Sharing Room",
-          price: 320,
-          availability: "Available",
-          amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Desk"],
-          images: [roomImages.sharing[0]],
-          description: "Double sharing layout, designed explicitly to maximize comfort for roommates and UTM scholars."
-        }
-      ]
-    },
+        roomNo: "Bilik Sharing",
+        type: "Two Single Beds",
+        price: 590,
+        availability: "Available",
+        amenities: ["Ceiling Fan", "Wardrobe", "Window"],
+        images: [roomImages.master[0]],
+        description: "Bilik katil single untuk 2 orang dan ruang yang selesa beserta wardrobe untuk setiap sorang."
+      },
+      {
+        id: "hs4-r2",
+        roomNo: "Bilik Besar",
+        type: "Queen Bed",
+        price: 590,
+        availability: "Occupied",
+        amenities: ["Queen Bed", "Ceiling Fan", "Wardrobe", "Window"],
+        images: [roomImages.medium[0]],
+        description: "Bilik katil queen bed sesuai untuk 2 orang dan mempunyai ruang yang selesa dengan harga berpatutan."
+      },
+      {
+        id: "hs4-r3",
+        roomNo: "Bilik Kecil 1",
+        type: "Single Room",
+        price: 490,
+        availability: "Occupied",
+        amenities: ["Fan", "Single Bed", "Wardrobe"],
+        images: [roomImages.single[0]],
+        description: "Bilik saiz kecil sesuai dengan harga berpatutan."
+      },
+      {
+        id: "hs4-r4",
+        roomNo: "Bilik Kecil 2",
+        type: "Single Room",
+        price: 370,
+        availability: "Occupied",
+        amenities: ["Portable Fan", "Single Bed", "Wardrobe", "Window"],
+        images: [roomImages.single[1]],
+        description: "Budget single room equipped with quality foam mattress, hanger stand, and general utility desk."
+      }
+    ]
+  },
   {
     id: "hs5",
     code: "HS 5",
     name: "Blok B Villa Krystal",
     fullTitle: "HS 5 - Blok B Villa Krystal",
-    address: "Jalan Selesa Jaya, Bandar Selesa Jaya, 81300 Skudai, Johor Bahru, Johor",
+    address: "Blok B-18-13, Villa Krystal, Jalan Silat Lincah, Bandar Selesa Jaya, 81300 Skudai, Johor Bahru, Johor",
     coverImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-    description: "Premium condominium complex in Selesa Jaya, Johor. Residents enjoy strict 24/7 security card access, high floor breeze, an outdoor swimming pool, and direct parking options.",
+    description: "Apartment in Selesa Jaya, Johor. Residents enjoy strict 24/7 security card access, high floor breeze, an outdoor swimming pool, and direct parking options.",
     location: {
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.32454227092!2d103.6372113!3d1.5173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7595ab3dbfe3%3A0xe54d3d2db73bfa2e!2sVilla%20Krystal%20Apartment!5e0!3m2!1sen!2smy!4v1700000000004!5m2!1sen!2smy"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.4690143842854!2d103.63210707496606!3d1.490144998495875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMjknMjQuNSJOIDEwM8KwMzgnMDQuOSJF!5e0!3m2!1sen!2smy!4v1782572586642!5m2!1sen!2smy"
     },
-    facilities: ["Swimming Pool", "24/7 Security Guards", "Gym Access", "Parking Space", "Washing Machine", "Kitchen Stove", "Refrigerator"],
+    facilities: ["Swimming Pool", "24/7 Security Guards", "Parking Space", "Convenience Store", "Washing Machine", "Kitchen Stove", "Refrigerator", "Water Filter"],
     rooms: [
       {
         id: "hs5-r1",
-        roomNo: "Room 1",
-        type: "Master Room",
-        price: 700,
+        roomNo: "Bilik Master",
+        type: "Queen Bed",
+        price: 650,
         availability: "Available",
-        amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Window", "Wardrobe", "Large Mirror"],
+        amenities: ["Air-Conditioning", "Private Bathroom with water heater", "Queen Bed", "Window", "Wardrobe"],
         images: [roomImages.master[0]],
-        description: "Luxurious master bedroom in a condominium setting. Includes custom vanity workspace and breathtaking view of Johor Strait."
+        description: "Bilik master mempunyai bilik air sendiri dan air-conditioning."
       },
       {
         id: "hs5-r2",
-        roomNo: "Room 2",
-        type: "Medium Room",
-        price: 550,
-        availability: "Available",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Queen Bed", "Wardrobe", "Window"],
+        roomNo: "Bilik Besar 1 (Balkoni)",
+        type: "Queen Bed",
+        price: 650,
+        availability: "Reserved",
+        amenities: ["Air-Conditioning", "Shared Bathroom with water heater", "Queen Bed", "Wardrobe", "Balkoni"],
         images: [roomImages.medium[0]],
-        description: "Premium medium room with large queen bed, cooling AC, and ample cabinet storage space."
+        description: "Premium medium room with large queen bed, cooling AC, and balcony."
       },
       {
         id: "hs5-r3",
-        roomNo: "Room 3",
-        type: "Single Room",
-        price: 450,
+        roomNo: "Bilik Besar 2",
+        type: "Queen Bed",
+        price: 590,
         availability: "Available",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe"],
+        amenities: ["Study desk", "Queen Bed", "Wardrobe"],
         images: [roomImages.single[0]],
-        description: "Air-conditioned single room situated in a quiet corner of the condo, offering maximum privacy."
+        description: "Bilik katil queen sesuai untuk 2 orang dengan keluasan bilik yang sangat selesa."
       },
       {
         id: "hs5-r4",
-        roomNo: "Room 4",
+        roomNo: "Bilik Single 1",
         type: "Single Room",
-        price: 400,
-        availability: "Occupied",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe"],
+        price: 490,
+        availability: "Available",
+        amenities: ["Ceiling Fan", "Single Bed", "Clothing Rack Wall Mounted"],
         images: [roomImages.single[1]],
-        description: "Cozy single room with a strong ceiling fan and custom workspace desk, facing the pool area."
+        description: "Bilik kecil cozy dengan harga bajet untuk seorang"
       },
       {
         id: "hs5-r5",
-        roomNo: "Room 5",
-        type: "Sharing Room",
-        price: 360,
-        availability: "Reserved",
-        amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Study Tables"],
+        roomNo: "Bilik Medium",
+        type: "No picture available",
+        price: 550,
+        availability: "Occupied",
+        amenities: ["Ceiling Fan", "Wardrobe", "Window", "Single Bed"],
         images: [roomImages.sharing[0]],
-        description: "Dual sharing room layout with individual workspaces and custom reading lamps for late nights."
+        description: "Bilik saiz medium dengan harga bajet untuk seorang"
       }
     ]
   },
@@ -330,73 +320,63 @@ const houses = [
     code: "HS 6",
     name: "Blok C Villa Krystal",
     fullTitle: "HS 6 - Blok C Villa Krystal",
-    address: "Jalan Selesa Jaya, Bandar Selesa Jaya, 81300 Skudai, Johor Bahru, Johor",
-    coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
-    description: "Another beautiful condominium unit in Villa Krystal Block C. Features excellent panoramic views, full resort facilities, secure electronic gate entry, and neat co-living configurations.",
+    address: "Blok C-16-01, Villa Krystal, Jalan Silat Lincah, Bandar Selesa Jaya, 81300 Skudai, Johor Bahru, Johor",
+    coverImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+    description: "Apartment in Selesa Jaya, Johor. Residents enjoy strict 24/7 security card access, high floor breeze, an outdoor swimming pool, and direct parking options.",
     location: {
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.32454227092!2d103.6372113!3d1.5173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7595ab3dbfe3%3A0xe54d3d2db73bfa2e!2sVilla%20Krystal%20Apartment!5e0!3m2!1sen!2smy!4v1700000000004!5m2!1sen!2smy"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.4690143842854!2d103.63210707496606!3d1.490144998495875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMjknMjQuNSJOIDEwM8KwMzgnMDQuOSJF!5e0!3m2!1sen!2smy!4v1782572586642!5m2!1sen!2smy"
     },
-    facilities: ["Swimming Pool", "24/7 Security Guards", "Gated Carpark", "Washing Machine", "Kitchen Stove & Hood", "Refrigerator"],
+    facilities: ["Swimming Pool", "24/7 Security Guards", "Parking Space", "Convenience Store", "Washing Machine", "Kitchen Stove", "Refrigerator", "Water Filter"],
     rooms: [
       {
         id: "hs6-r1",
-        roomNo: "Room 1",
-        type: "Master Room",
-        price: 720,
+        roomNo: "Bilik Master",
+        type: "Queen Bed",
+        price: 650,
         availability: "Available",
-        amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Window", "Wardrobe", "Study Corner"],
+        amenities: ["WiFi", "Air-Conditioning", "Private Bathroom with water heater", "Queen Bed", "Window", "Wardrobe"],
         images: [roomImages.master[0]],
-        description: "Enormous master bedroom with clean tiled flooring, private ensuite bathroom, and double door closets."
+        description: "Bilik master mempunyai bilik air sendiri dan air-conditioning."
       },
       {
         id: "hs6-r2",
-        roomNo: "Room 2",
-        type: "Medium Room",
-        price: 560,
+        roomNo: "Bilik Besar 1 (Balkoni)",
+        type: "Queen Bed",
+        price: 650,
         availability: "Available",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Queen Bed", "Wardrobe", "Window"],
+        amenities: ["Air-Conditioning", "Shared Bathroom with water heater", "Queen Bed", "Wardrobe", "Balkoni"],
         images: [roomImages.medium[0]],
-        description: "Middle-size bedroom fitted with high-efficiency air conditioning, a warm carpet, and writing table."
+        description: "Premium medium room with large queen bed, cooling AC, and balcony."
       },
       {
         id: "hs6-r3",
-        roomNo: "Room 3",
-        type: "Medium Room",
-        price: 540,
+        roomNo: "Bilik Besar 2",
+        type: "Queen Bed",
+        price: 590,
         availability: "Occupied",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe", "Desk"],
-        images: [roomImages.medium[1]],
-        description: "Comfortable middle room with study desk and high-speed internet port. Standard wardrobes included."
+        amenities: ["Study desk", "Queen Bed", "Wardrobe"],
+        images: [roomImages.single[0]],
+        description: "Bilik katil queen sesuai untuk 2 orang dengan keluasan bilik yang sangat selesa."
       },
       {
         id: "hs6-r4",
-        roomNo: "Room 4",
+        roomNo: "Bilik Single 1",
         type: "Single Room",
-        price: 460,
+        price: 490,
         availability: "Available",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe"],
-        images: [roomImages.single[0]],
-        description: "Fully furnished single room with air-conditioning. Provides a bright study table next to the window."
+        amenities: ["Ceiling Fan", "Single Bed", "Clothing Rack Wall Mounted"],
+        images: [roomImages.single[1]],
+        description: "Bilik kecil cozy dengan harga bajet untuk seorang"
       },
       {
         id: "hs6-r5",
-        roomNo: "Room 5",
-        type: "Single Room",
-        price: 410,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe"],
-        images: [roomImages.single[1]],
-        description: "Affordable private single room with a strong fan. Well-kept with modern laminate furniture."
-      },
-      {
-        id: "hs6-r6",
-        roomNo: "Room 6",
-        type: "Sharing Room",
-        price: 350,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Cabinet Set"],
+        roomNo: "Bilik Medium",
+        type: "No picture available",
+        price: 550,
+        availability: "Occupied",
+        amenities: ["Ceiling Fan", "Wardrobe", "Window", "Single Bed"],
         images: [roomImages.sharing[0]],
-        description: "Spacious twin-sharing unit with full study setups. An excellent option for budget-conscious housemates."
+        description: "Bilik saiz medium dengan harga bajet untuk seorang"
       }
     ]
   }
