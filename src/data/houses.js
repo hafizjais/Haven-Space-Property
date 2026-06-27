@@ -32,15 +32,15 @@ const houses = [
     location: {
       lat: 1.5269,
       lng: 103.6010,
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d15952.880598864758!2d103.5922452!3d1.5269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da73fb8c8b4fb9%3A0xe54d3d2db73bfa2e!2sKangkar%20Pulai%2C%20Johor!5e0!3m2!1sen!2smy!4v1700000000000!5m2!1sen!2smy"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.3529902909468!2d103.58221007496616!3d1.5528949984325942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzMnMTAuNCJOIDEwM8KwMzUnMDUuMiJF!5e0!3m2!1sen!2smy!4v1782544133447!5m2!1sen!2smy"
     },
-    facilities: ["Parking Available", "Washing Machine", "WiFi-ready", "Near Public Transport", "Refrigerator", "Kitchen / Light Cooking Allowed"],
+    facilities: ["Parking Available", "Washing Machine", "WiFi-ready", "Refrigerator", "Kitchen / Light Cooking Allowed"],
     rooms: [
       {
         id: "hs1-r1",
-        roomNo: "Room 1",
-        type: "Master Room",
-        price: 650,
+        roomNo: "Bilik Twin",
+        type: "Two Single Beds",
+        price: 550,
         availability: "Available",
         amenities: ["Air-Conditioning", "Attached Bathroom", "Wardrobe", "Window", "Queen Bed", "Study Desk & Chair"],
         images: [
@@ -51,10 +51,10 @@ const houses = [
       },
       {
         id: "hs1-r2",
-        roomNo: "Room 2",
-        type: "Medium Room",
-        price: 500,
-        availability: "Available",
+        roomNo: "Bilik Biasa",
+        type: "Single Bed",
+        price: 390,
+        availability: "Not Available",
         amenities: ["Air-Conditioning", "Shared Bathroom", "Wardrobe", "Single Bed", "Window", "Study Desk"],
         images: [
           roomImages.medium[0] // Local path: "/images/hs1/room2-1.jpg"
@@ -63,10 +63,10 @@ const houses = [
       },
       {
         id: "hs1-r3",
-        roomNo: "Room 3",
-        type: "Single Room",
-        price: 420,
-        availability: "Occupied",
+        roomNo: "Bilik Besar",
+        type: "Single Bed",
+        price: 450,
+        availability: "Available",
         amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe"],
         images: [
           roomImages.single[0] // Local path: "/images/hs1/room3-1.jpg"
@@ -75,27 +75,15 @@ const houses = [
       },
       {
         id: "hs1-r4",
-        roomNo: "Room 4",
-        type: "Single Room",
-        price: 450,
-        availability: "Available",
+        roomNo: "Bilik Kecil",
+        type: "Single Bed",
+        price: 350,
+        availability: "Not Available",
         amenities: ["Air-Conditioning", "Shared Bathroom", "Wardrobe", "Single Bed", "Window"],
         images: [
           roomImages.single[1] // Local path: "/images/hs1/room4-1.jpg"
         ],
         description: "Bright, fully-furnished single room with air-conditioning. Situated near the kitchen and common dining area."
-      },
-      {
-        id: "hs1-r5",
-        roomNo: "Room 5",
-        type: "Sharing Room",
-        price: 350,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Double Wardrobes", "Window"],
-        images: [
-          roomImages.sharing[0] // Local path: "/images/hs1/room5-1.jpg"
-        ],
-        description: "Comfortable sharing room suitable for two tenants. Comes with two separate single beds and individual closets."
       }
     ]
   },
