@@ -30,8 +30,6 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80", // Local path: "/images/hs1/cover.jpg"
     description: "Comfortable shared house in a quiet residential area in Kangkar Pulai. Perfect for UTM students or working professionals nearby, with easy access to local shops, eateries, and public transport.",
     location: {
-      lat: 1.5269,
-      lng: 103.6010,
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.3529902909468!2d103.58221007496616!3d1.5528949984325942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzMnMTAuNCJOIDEwM8KwMzUnMDUuMiJF!5e0!3m2!1sen!2smy!4v1782544133447!5m2!1sen!2smy"
     },
     facilities: ["Parking Available", "Washing Machine", "WiFi-ready", "Refrigerator", "Kitchen / Light Cooking Allowed"],
@@ -96,9 +94,7 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80", // Local: "/images/hs2/cover.jpg"
     description: "Centrally located apartment unit in Taman Universiti, Skudai. In close proximity to AEON Taman Universiti, food courts, and less than a 5-minute drive to UTM Main Campus.",
     location: {
-      lat: 1.5458,
-      lng: 103.6264,
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.378147884128!2d103.6154060749661!3d1.539505998446092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzInMjIuMiJOIDEwM8KwMzcnMDQuNyJF!5e0!3m2!1sen!2smy!4v1782567730229!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.378147884128!2d103.6154060749661!3d1.539505998446092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzInMjIuMiJOIDEwM8KwMzcnMDQuNyJF!5e0!3m2!1sen!2smy!4v1782567730229!5m2!1sen!2smy"
     },
     facilities: ["WiFi-ready", "Washing Machine", "Kitchen Hook & Cooker", "Gated Security", "Refrigerator"],
     rooms: [
@@ -163,8 +159,6 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
     description: "Quiet residential flat in the premium Pulai Flora housing district. Walking distance to Pulai Springs Resort and nearby shop offices offering convenience stores, clinics, and local restaurants.",
     location: {
-      lat: 1.5398,
-      lng: 103.6338,
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.24354227092!2d103.6316113!3d1.5398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7405e3f5a2e1%3A0xc3312015fa764834!2sTaman%20Pulai%20Flora%2C%20Skudai%2C%20Johor!5e0!3m2!1sen!2smy!4v1700000000002!5m2!1sen!2smy"
     },
     facilities: ["WiFi-ready", "Parking Available", "Washing Machine", "Kitchen Stove", "Water Dispenser"],
@@ -230,8 +224,6 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
     description: "Spacious town-apartment situated in the popular Taman Pulai Utama area. Walking distance to U-Mall Shopping Centre, giant supermarkets, local dry cleaners, and UTM buses routes.",
     location: {
-      lat: 1.5482,
-      lng: 103.6250,
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.21456227092!2d103.6228113!3d1.5482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da741a340b0dfb%3A0x6bfe76e03fb8f3d!2sTaman%20Pulai%20Utama%2C%20Skudai%2C%20Johor!5e0!3m2!1sen!2smy!4v1700000000003!5m2!1sen!2smy"
     },
     facilities: ["Washing Machine", "Kitchen Stove", "Refrigerator", "Dining Area", "WiFi-ready"],
@@ -297,8 +289,6 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
     description: "Premium condominium complex in Selesa Jaya, Johor. Residents enjoy strict 24/7 security card access, high floor breeze, an outdoor swimming pool, and direct parking options.",
     location: {
-      lat: 1.5173,
-      lng: 103.6394,
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.32454227092!2d103.6372113!3d1.5173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7595ab3dbfe3%3A0xe54d3d2db73bfa2e!2sVilla%20Krystal%20Apartment!5e0!3m2!1sen!2smy!4v1700000000004!5m2!1sen!2smy"
     },
     facilities: ["Swimming Pool", "24/7 Security Guards", "Gym Access", "Parking Space", "Washing Machine", "Kitchen Stove", "Refrigerator"],
@@ -364,8 +354,6 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
     description: "Another beautiful condominium unit in Villa Krystal Block C. Features excellent panoramic views, full resort facilities, secure electronic gate entry, and neat co-living configurations.",
     location: {
-      lat: 1.5175,
-      lng: 103.6396,
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.32454227092!2d103.6372113!3d1.5173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7595ab3dbfe3%3A0xe54d3d2db73bfa2e!2sVilla%20Krystal%20Apartment!5e0!3m2!1sen!2smy!4v1700000000004!5m2!1sen!2smy"
     },
     facilities: ["Swimming Pool", "24/7 Security Guards", "Gated Carpark", "Washing Machine", "Kitchen Stove & Hood", "Refrigerator"],
