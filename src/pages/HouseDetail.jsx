@@ -126,8 +126,6 @@ export default function HouseDetail() {
         <div className="lg:col-span-2">
           <MapEmbed 
             mapEmbedUrl={house.location.mapEmbedUrl} 
-            lat={house.location.lat} 
-            lng={house.location.lng} 
             address={house.address} 
           />
         </div>

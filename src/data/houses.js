@@ -98,7 +98,7 @@ const houses = [
     location: {
       lat: 1.5458,
       lng: 103.6264,
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.2238411986423!2d103.6242113!3d1.5458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da741a340b0dfb%3A0x6bfe76e03fb8f3d!2sTaman%20Universiti%2C%20Skudai%2C%20Johor!5e0!3m2!1sen!2smy!4v1700000000001!5m2!1sen!2smy"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.378147884128!2d103.6154060749661!3d1.539505998446092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzInMjIuMiJOIDEwM8KwMzcnMDQuNyJF!5e0!3m2!1sen!2smy!4v1782567730229!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
     },
     facilities: ["WiFi-ready", "Washing Machine", "Kitchen Hook & Cooker", "Gated Security", "Refrigerator"],
     rooms: [

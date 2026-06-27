@@ -2,15 +2,13 @@ import React from 'react';
 import { MapPin, ExternalLink } from 'lucide-react';
 
 /**
- * MapEmbed safely loads a Google Maps embed iframe, or provides coordinates linking.
+ * MapEmbed safely loads a Google Maps embed iframe, or provides address linking.
  * @param {Object} props
  * @param {string} props.mapEmbedUrl - Google Maps embed src URL
- * @param {number} props.lat - Latitude coordinate
- * @param {number} props.lng - Longitude coordinate
  * @param {string} props.address - Property address text
  */
-export default function MapEmbed({ mapEmbedUrl, lat, lng, address }) {
-  const mapLink = `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`;
+export default function MapEmbed({ mapEmbedUrl, address }) {
+  const mapLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 
   return (
     <div className="bg-white rounded-2xl border border-cream-200/80 p-5 shadow-sm">
@@ -50,7 +48,7 @@ export default function MapEmbed({ mapEmbedUrl, lat, lng, address }) {
             <MapPin className="w-10 h-10 text-sage-400 mb-2 animate-bounce" />
             <span className="font-semibold text-sm text-charcoal mb-1">Interactive Map Placeholder</span>
             <p className="text-xs text-charcoal-400 max-w-xs leading-relaxed mb-4">
-              Coordinates: {lat}, {lng}. A real Google Maps embed widget can be added by updating `houses.js` with an embed URL.
+              A real Google Maps embed widget can be added by updating `houses.js` with an embed URL.
             </p>
             <a 
               href={mapLink} 
