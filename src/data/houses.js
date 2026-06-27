@@ -90,63 +90,53 @@ const houses = [
     code: "HS 2",
     name: "Blok D Pulai Utama",
     fullTitle: "HS 2 - Blok D Pulai Utama",
-    address: "Jalan Kebangsaan 23, Taman Universiti, 81300 Skudai, Johor Bahru, Johor",
+    address: "D04-11, Jalan Pulai 84/3, Taman Pulai Utama",
     coverImage: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80", // Local: "/images/hs2/cover.jpg"
-    description: "Centrally located apartment unit in Taman Universiti, Skudai. In close proximity to AEON Taman Universiti, food courts, and less than a 5-minute drive to UTM Main Campus.",
+    description: "Centrally located apartment unit in Taman Pulai Utama, Johor Bahru. In close proximity to AEON Taman Universiti, food courts, and less than a 5-minute drive to UTM Main Campus.",
     location: {
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.378147884128!2d103.6154060749661!3d1.539505998446092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzInMjIuMiJOIDEwM8KwMzcnMDQuNyJF!5e0!3m2!1sen!2smy!4v1782567730229!5m2!1sen!2smy"
     },
-    facilities: ["WiFi-ready", "Washing Machine", "Kitchen Hook & Cooker", "Gated Security", "Refrigerator"],
+    facilities: ["Washing Machine", "Cooker", "Gated Security", "Refrigerator", "Parking Available"],
     rooms: [
       {
         id: "hs2-r1",
-        roomNo: "Room 1",
-        type: "Master Room",
-        price: 600,
-        availability: "Available",
-        amenities: ["Air-Conditioning", "Attached Bathroom", "Queen Bed", "Wardrobe", "Study Table"],
+        roomNo: "Bilik Master Twin",
+        type: "Two Single Beds",
+        price: 550,
+        availability: "Occupied",
+        amenities: ["Air-Conditioning", "Wardrobe", "Comforter & mattress", "Portable fan"],
         images: [roomImages.master[0]],
-        description: "Master bedroom featuring a private toilet and good ventilation. Excellent option for UTM postgraduates."
+        description: "Harga mampu milik untuk students. Bil api dan air included (+ air-conditioning)."
       },
       {
         id: "hs2-r2",
-        roomNo: "Room 2",
-        type: "Medium Room",
-        price: 480,
+        roomNo: "Bilik Biasa",
+        type: "Single Bed",
+        price: 390,
         availability: "Occupied",
-        amenities: ["Air-Conditioning", "Shared Bathroom", "Single Bed", "Wardrobe"],
+        amenities: ["Air-Conditioning", "Single Bed", "Wardrobe"],
         images: [roomImages.medium[0]],
-        description: "Mid-sized room fully equipped with a study desk, tall closet, and powerful wall split air conditioner."
+        description: "Mid-sized room fully equipped with a study desk and tall closet"
       },
       {
         id: "hs2-r3",
-        roomNo: "Room 3",
-        type: "Single Room",
-        price: 400,
+        roomNo: "Bilik Kecil (Rooftop)",
+        type: "Single Bed",
+        price: 350,
         availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed", "Wardrobe", "Window"],
+        amenities: ["Air-conditioning", "Portable Fan", "Wardrobe"],
         images: [roomImages.single[0]],
-        description: "Comfortable single room with regular ceiling fan. Overlooks the quiet courtyard garden."
+        description: "Bilik kecil di rooftop. Keluasan bilik agak sempit dan panas pada waktu siang tetapi air-conditioning disediakan."
       },
       {
         id: "hs2-r4",
-        roomNo: "Room 4",
-        type: "Single Room",
-        price: 380,
+        roomNo: "Bilik Medium",
+        type: "Single Bed",
+        price: 450,
         availability: "Reserved",
-        amenities: ["Fan", "Shared Bathroom", "Single Bed"],
+        amenities: ["Fan", "Wardrobe", "Window", "Portable Fan", "Comforter & mattress"],
         images: [roomImages.single[1]],
-        description: "Value single room with basic furnishings. Suitable for short term or budget renters."
-      },
-      {
-        id: "hs2-r5",
-        roomNo: "Room 5",
-        type: "Sharing Room",
-        price: 330,
-        availability: "Available",
-        amenities: ["Fan", "Shared Bathroom", "2 Single Beds", "Wardrobe"],
-        images: [roomImages.sharing[0]],
-        description: "Twin sharing unit with adequate spacing, student-centric study set, and clean common bathroom."
+        description: "Bilik saiz medium yang selesa dan mepunyai air-conditioning dan kipas angin membantu pengudaraan dengan baik."
       }
     ]
   },
@@ -159,7 +149,7 @@ const houses = [
     coverImage: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
     description: "Quiet residential flat in the premium Pulai Flora housing district. Walking distance to Pulai Springs Resort and nearby shop offices offering convenience stores, clinics, and local restaurants.",
     location: {
-      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1d3988.24354227092!2d103.6316113!3d1.5398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da7405e3f5a2e1%3A0xc3312015fa764834!2sTaman%20Pulai%20Flora%2C%20Skudai%2C%20Johor!5e0!3m2!1sen!2smy!4v1700000000002!5m2!1sen!2smy"
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3988.3579567190905!2d103.61943407496615!3d1.5502609984352513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMzMnMDAuOSJOIDEwM8KwMzcnMTkuMiJF!5e0!3m2!1sen!2smy!4v1782569739416!5m2!1sen!2smy"
     },
     facilities: ["WiFi-ready", "Parking Available", "Washing Machine", "Kitchen Stove", "Water Dispenser"],
     rooms: [
