@@ -18,7 +18,6 @@ export default function BrowseRooms() {
   // Active filter states
   const [selectedHouse, setSelectedHouse] = useState(searchParams.get('house') || 'all');
   const [selectedType, setSelectedType] = useState(searchParams.get('type') || 'all');
-  const [selectedFurnish, setSelectedFurnish] = useState('all');
   const [selectedStatus, setSelectedStatus] = useState('all');
   const [priceRange, setPriceRange] = useState(800); // Max RM 800
   const [sortBy, setSortBy] = useState('price-low'); // price-low | price-high
@@ -76,11 +75,6 @@ export default function BrowseRooms() {
       result = result.filter((room) => room.type === selectedType);
     }
 
-    // Furnishing Filter
-    if (selectedFurnish !== 'all') {
-      result = result.filter((room) => room.furnishing === selectedFurnish);
-    }
-
     // Status Filter
     if (selectedStatus !== 'all') {
       result = result.filter((room) => room.availability === selectedStatus);
@@ -97,13 +91,12 @@ export default function BrowseRooms() {
     }
 
     return result;
-  }, [allRooms, searchTerm, selectedHouse, selectedType, selectedFurnish, selectedStatus, priceRange, sortBy]);
+  }, [allRooms, searchTerm, selectedHouse, selectedType, selectedStatus, priceRange, sortBy]);
 
   const handleResetFilters = () => {
     setSearchTerm('');
     setSelectedHouse('all');
     setSelectedType('all');
-    setSelectedFurnish('all');
     setSelectedStatus('all');
     setPriceRange(800);
     setSortBy('price-low');
@@ -121,7 +114,6 @@ export default function BrowseRooms() {
   };
 
   const roomTypes = ['Master Room', 'Medium Room', 'Single Room', 'Sharing Room'];
-  const furnishingTypes = ['Fully Furnished', 'Partially Furnished', 'Unfurnished'];
   const availabilityTypes = ['Available', 'Occupied', 'Reserved'];
 
   // Filter sidebar element
@@ -182,34 +174,7 @@ export default function BrowseRooms() {
         </select>
       </div>
 
-      {/* Furnishing */}
-      <div>
-        <label className="block text-xs font-semibold text-charcoal uppercase tracking-wider mb-2">
-          Furnishing
-        </label>
-        <div className="space-y-1.5 mt-1">
-          <label className="flex items-center text-xs text-charcoal-600 font-light cursor-pointer">
-            <input
-              type="radio"
-              checked={selectedFurnish === 'all'}
-              onChange={() => setSelectedFurnish('all')}
-              className="mr-2 text-terracotta-500 focus:ring-terracotta-400"
-            />
-            All Furnishings
-          </label>
-          {furnishingTypes.map((f) => (
-            <label key={f} className="flex items-center text-xs text-charcoal-600 font-light cursor-pointer">
-              <input
-                type="radio"
-                checked={selectedFurnish === f}
-                onChange={() => setSelectedFurnish(f)}
-                className="mr-2 text-terracotta-500 focus:ring-terracotta-400"
-              />
-              {f}
-            </label>
-          ))}
-        </div>
-      </div>
+
 
       {/* Price Slider */}
       <div>

@@ -27,7 +27,6 @@ Find the room object by its `id` and change the attributes:
   type: "Master Room",             // Options: "Master Room" | "Medium Room" | "Single Room" | "Sharing Room"
   price: 650,                      // Monthly rent in RM (numbers only)
   size: "12 x 14 ft",
-  furnishing: "Fully Furnished",   // Options: "Fully Furnished" | "Partially Furnished" | "Unfurnished"
   availability: "Available",       // Options: "Available" | "Occupied" | "Reserved"
   amenities: ["Air-Conditioning", "Attached Bathroom", "Wardrobe", "Window", "Queen Bed"],
   images: [
