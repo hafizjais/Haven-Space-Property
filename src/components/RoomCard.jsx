@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Maximize, Home } from 'lucide-react';
+import { Home } from 'lucide-react';
 import AvailabilityBadge from './AvailabilityBadge';
 import WhatsAppButton from './WhatsAppButton';
 
@@ -49,13 +49,7 @@ export default function RoomCard({ room, houseCode, houseName }) {
           {room.roomNo} <span className="text-sm font-normal text-charcoal-400">({room.type})</span>
         </h3>
 
-        {/* Details Row */}
-        <div className="flex items-center text-xs text-charcoal-600 mb-4 border-t border-cream-200/60 pt-3">
-          <div className="flex items-center space-x-1.5">
-            <Maximize className="w-3.5 h-3.5 text-terracotta-400 flex-shrink-0" />
-            <span>{room.size}</span>
-          </div>
-        </div>
+
 
         {/* Action Row */}
         <div className="mt-auto pt-3 border-t border-cream-200/60 grid grid-cols-2 gap-2.5">

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Maximize, ShieldAlert, DoorClosed, Wind, ShowerHead, HelpCircle, Check, BedSingle } from 'lucide-react';
+import { ArrowLeft, ShieldAlert, DoorClosed, Wind, ShowerHead, HelpCircle, Check, BedSingle } from 'lucide-react';
 import houses from '../data/houses';
 import RoomCard from '../components/RoomCard';
 import Breadcrumb from '../components/Breadcrumb';
@@ -113,18 +113,7 @@ export default function RoomDetail() {
             </div>
           </div>
 
-          {/* Quick specs grid */}
-          <div className="py-4 border-y border-cream-200/60 text-xs">
-            <div className="flex items-center space-x-2.5">
-              <div className="w-8 h-8 rounded-lg bg-cream-100 flex items-center justify-center flex-shrink-0">
-                <Maximize className="w-4 h-4 text-sage-600" />
-              </div>
-              <div>
-                <p className="text-[10px] text-charcoal-400 font-medium uppercase tracking-wider">Room Dimensions</p>
-                <p className="font-semibold text-charcoal">{room.size}</p>
-              </div>
-            </div>
-          </div>
+
 
           {/* Amenities details */}
           <div className="space-y-3">
